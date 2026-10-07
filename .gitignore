@@ -28,14 +28,19 @@ coverage
 node_modules/
 jspm_packages/
 
-# TypeScript cache
+# TypeScript & Vite cache
 *.tsbuildinfo
 .eslintcache
+.vite/
+.cache/
+.turbo/
 
 # Build outputs
 dist/
 dist-ssr/
 build/
+.next/
+out/
 *.local
 
 # Environment variables
@@ -67,8 +72,6 @@ Desktop.ini
 *.sln
 *.sw?
 
-# Temporary / Cache directories
-.cache/
-.turbo/
+# Temporary directories
 tmp/
 temp/
